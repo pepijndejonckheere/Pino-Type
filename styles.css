@@ -1,0 +1,1676 @@
+body,
+html{
+	margin:0;
+	padding:0;
+	overflow: hidden!important;
+}
+
+.intro{
+	overflow: hidden!important;
+}
+
+.intro img{
+	height:95vh;
+	overflow: hidden!important;
+	pointer-events:none;
+}
+
+.slideOutUp {
+	position: absolute;
+	top: 2vh;
+	left: 20vw;
+	} 
+
+
+.slideOutUpAnim {
+
+		-webkit-animation-name: slideOutUp;
+		animation-name: slideOutUp;
+		-webkit-animation-duration: 8s;
+		animation-duration: 8s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		}
+		@-webkit-keyframes slideOutUp {
+			0% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+				}
+			100% {
+				-webkit-transform: translateY(-95%);
+				transform: translateY(-95%);
+			}
+		}
+		@keyframes slideOutUp {
+			0% {
+				-webkit-transform: translateY(0);
+				transform: translateY(0);
+			}
+			100% {
+				-webkit-transform: translateY(-95%);
+				transform: translateY(-95%);
+			}
+		} 
+
+.slideOutDown {
+	position: absolute;
+	top: 4vh;
+	left: 21vw;
+} 
+
+.slideOutDownAnim {
+	-webkit-animation-name: slideOutDown;
+	animation-name: slideOutDown;
+	-webkit-animation-duration: 8s;
+	animation-duration: 8s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutDown {
+		0% {
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+			}
+		100% {
+			-webkit-transform: translateY(94%);
+			transform: translateY(94%);
+			}
+	}
+	@keyframes slideOutDown {
+		0% {
+			-webkit-transform: translateY(0);
+			transform: translateY(0);
+		}
+		100% {
+			-webkit-transform: translateY(94%);
+			transform: translateY(94%);
+		}
+	} 
+
+	
+.slideOutLeft {
+	position: absolute;
+	top: 2vh;
+	left: 20vw;
+	} 
+	
+.slideOutLeftAnim {
+	-webkit-animation-name: slideOutLeft;
+	animation-name: slideOutLeft;
+	-webkit-animation-duration: 18s;
+	animation-duration: 18s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutLeft {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		30% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(-123%);
+			transform: translateX(-123%);
+		}
+	}
+	@keyframes slideOutLeft {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		30% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(-123%);
+			transform: translateX(-123%);
+		}
+	}
+	
+
+.slideOutRight {
+	position: absolute;
+	top: 2vh;
+	left: 20vw;
+	} 
+
+.slideOutRightAnim {
+	-webkit-animation-name: slideOutRight;
+	animation-name: slideOutRight;
+	-webkit-animation-duration: 18s;
+	animation-duration: 18s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	}
+	@-webkit-keyframes slideOutRight {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		30% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(117%);
+			transform: translateX(117%);
+		}
+	}
+	@keyframes slideOutRight {
+		0% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		30% {
+			-webkit-transform: translateX(0);
+			transform: translateX(0);
+		}
+		100% {
+			-webkit-transform: translateX(117%);
+			transform: translateX(117%);
+		}
+	}
+
+	.laag1-links{
+		position: absolute;
+		top: 2vh;
+		left: 3vw;
+	}
+	
+	.laag1-rechts{
+		position: absolute;
+		top: 2vh;
+		left: 78vw;
+	}
+
+	.laag2-links{
+		position: absolute;
+		top: 2vh;
+		left: 3vw;
+	}
+	
+	.laag2-rechts{
+		position: absolute;
+		top: 2vh;
+		left: 78vw;
+	}
+
+	.laag3-links{
+		position: absolute;
+		top: 2vh;
+		left: 3vw;
+	}
+	
+	.laag3-rechts{
+		position: absolute;
+		top: 2vh;
+		left: 78vw;
+	}
+
+
+.container-fluid{
+position: absolute;
+z-index: -1;
+border: 6px double #000;
+border-color: purple;
+height:100vh;
+}
+
+
+.links{
+	height:98vh;
+	overflow: hidden!important;
+
+}
+
+
+.marqueeElement {
+	width:20vw;
+	color: #ccc;
+	position:absolute;
+}
+#mholder {
+	height: 97vh;
+	width:16vw;
+	position: absolute;
+	overflow: hidden;
+}
+
+.scroller{
+	z-index:-2;
+}
+
+
+.midden {
+	background-color: ;
+	height:98vh;
+	overflow-x: hidden!important;
+	padding-bottom:1px;
+}
+
+.img-midden{
+	weight:78vh;
+}
+
+.rechts {
+	height:98vh;
+	
+}
+
+
+.row {
+	display: flex;
+}
+
+.row > div {
+	flex: 1;
+}
+
+.row > div.links,
+.row > div.rechts {
+	border: 6px double #000;
+	margin: 1px 1px 1px 1px;
+}
+
+
+.row > div.midden {
+	overflow: scroll;
+	border: 6px double #000;
+	margin: 1px 0px 1px 0px;
+}
+
+.padder {
+	padding: 10px 10px 20px 10px;
+}
+
+
+.fontselector {
+	border-bottom: 6px double #000;
+	height:8vh;
+	padding:3px;
+}
+
+.infovak{
+	overflow: scroll!important;
+	height:73vh;
+}
+
+.fontinfo {
+	font-family:"formulier_basis";
+	letter-spacing:1px;
+	overflow: scroll;
+	height:72vh;
+}
+
+.opacity{
+	background-color:red;
+}
+
+.verschijn{
+	background-color:blue;
+}
+
+
+
+
+.getthisfont {
+	height:10vh;
+	border-top: 6px double #000;
+}
+
+.email-link{
+	font-family:"formulier_basis";
+	font-size:3vw;
+	background-color:red;
+	text-align:center;
+	text-shadow:
+		-1px -1px 0 yellow,
+		 1px -1px 0 yellow,
+		 -1px  1px 0 yellow,
+		 1px  1px 0 yellow;
+	border: 2px outset yellow;
+}
+
+.creative-commons{
+	font-size:1vh;
+	line-height:1.2;
+	text-align:left;
+	
+}
+
+
+.creative-commons img{
+	float: right;
+}
+
+
+
+@font-face {
+	font-family:"formulier_basis";
+	src: url(fonts/formulier-basis_web.woff2);
+}
+
+@font-face {
+	font-family:"basis-met-schreven";
+	src: url(fonts/formulier-19_basis_met_schreven_web.woff2);
+}
+
+
+@font-face {
+	font-family: "AGMbasis";
+	src: url(fonts/a_gothic_marker-basis_web.woff2);
+}
+
+@font-face {
+	font-family: "AGM1op1";
+	src: url(fonts/a_gothic_marker-1_op_1_web.woff2);
+}
+
+@font-face {
+	font-family: "AGMkapot";
+	src: url(fonts/a_gothic_marker-kapot_web.woff2);
+}
+
+@font-face {
+	font-family: "AGMkapot2";
+	src: url(fonts/a_gothic_marker-kapot_2_web.woff2);
+}
+
+@font-face {
+	font-family: "AGMkrabbels";
+	src: url(fonts/a_gothic_marker-krabbels_web.woff2);
+}
+
+@font-face {
+	font-family: "8";
+	src: url(fonts/8-8_web.woff2);
+}
+
+@font-face {
+	font-family:"fungi";
+	src: url(fonts/formulier-13_finale_versie_berg_en_strepen_web.woff2);
+}
+
+@font-face {
+	font-family: "alleonderdelenissmiley";
+	src: url(fonts/formulier-5_alle_onderdelen_is_smiley_web.woff2);
+}
+
+@font-face {
+	font-family: "vervormdesmiley";
+	src: url(fonts/formulier-6_vervormede_smileys_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelensmiley";
+	src: url(fonts/formulier-7_onderdelen_is_onderdelen_smiley_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier20effect1";
+	src: url(fonts/formulier-20_effect1_web.woff2);
+	padding-top:2vw;
+	padding-right: 2vw;
+}
+
+@font-face {
+	font-family: "omgekeerdcontrast";
+	src: url(fonts/formulier18_omgekeerd_contrast_web.woff2);
+}
+
+@font-face {
+	font-family: "houdingen";
+	src: url(fonts/houdingen-houdingen_web.woff2);
+}
+
+@font-face {
+	font-family:"beuk";
+	src: url(fonts/blaadjes-beuk_web.woff2);
+}
+
+@font-face {
+	font-family:"blaadjes-combinatie";
+	src: url(fonts/blaadjes-combinatie_web.woff2);
+}
+
+@font-face {
+	font-family:"eik";
+	src: url(fonts/blaadjes-eik_web.woff2);
+}
+
+@font-face {
+	font-family:"eldesdoorn";
+	src: url(fonts/blaadjes-eldesdoorn_of_spaanse_aak_web.woff2);
+}
+
+@font-face {
+	font-family:"rode_eik";
+	src: url(fonts/blaadjes-rode_eik_web.woff2);
+}
+
+@font-face {
+	font-family: "tussen2contrasten";
+	src: url(fonts/formulier-17_tussen2contrasten_web.woff2);
+}
+
+@font-face {
+	font-family: "ruit";
+src: url(fonts/formulier-22_ruit_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-15_guns_1";
+src: url(fonts/formulier-15_guns_1_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-21_effect2";
+src: url(fonts/formulier-21_effect2_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-20_effect1";
+src: url(fonts/formulier-20_effect1_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-24_krabbels_negatief";
+src: url(fonts/formulier-24_krabbels_negatief_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-25_krabbel_schrift";
+src: url(fonts/formulier-25_krabbel_schrift_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-26_krabbels_basis_negatief";
+src: url(fonts/formulier-26_krabbels_basis_negatief_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-27_krabbels_basis";
+src: url(fonts/formulier-27_krabbels_basis_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-28_krabbels";
+src: url(fonts/formulier-28_krabbels_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-31_krabbels_schreven";
+src: url(fonts/formulier-31_krabbels_schreven_web.woff2);
+}
+
+@font-face {
+	font-family:"formulier-33_bewegings_onscherpte";
+src: url(fonts/formulier-33_bewegings_onscherpte_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-34_bewegings_onscherpte_2";
+src: url(fonts/formulier-34_bewegings_onscherpte_2_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-39_storing_light";
+src: url(fonts/formulier-39_storing_light_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-40_storing_regular";
+src: url(fonts/formulier-40_storing_regular_web.woff2);
+}
+
+@font-face {
+	font-family: "formulier-41_storing_regular2";
+src: url(fonts/formulier-41_storing_regular_2_web.woff2);
+}
+
+@font-face {
+	font-family:"formulier-42_storing_bold";
+src: url(fonts/formulier-42_storing_bold_web.woff2);
+}
+
+@font-face {
+	font-family:"formulier-40_storing_glas";
+src: url(fonts/formulier-40_storing_glas_web.woff2);
+}
+
+@font-face {
+	font-family: "HELVETICA_CIJFERS-2";
+src: url(fonts/HELVETICA_CIJFERS-2_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening1";
+src: url(fonts/tekeningen-0209-01_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening2";
+src: url(fonts/tekeningen-0211-07_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening3";
+src: url(fonts/tekeningen-216-04_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening4";
+src: url(fonts/tekeningen-216-05_web.woff2)
+}
+
+@font-face {
+	font-family: "tekening5";
+src: url(fonts/tekeningen-216-16_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening6";
+src: url(fonts/tekeningen-0216-03_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening7";
+src: url(fonts/tekeningen-235-11_web.woff2) ;
+}
+
+@font-face {
+	font-family: "tekening8";
+src: url(fonts/tekeningen-246-02_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening9";
+src: url(fonts/tekeningen-246-14_web.woff2);
+}
+
+@font-face {
+	font-family: "tekening10";
+src: url(fonts/tekeningen-246-22_web.woff2);
+}
+
+@font-face {
+	font-family: "verbindingen";
+src: url(fonts/formulier_47_verbindingen_open-webfont.woff2);
+}
+
+@font-face {
+	font-family: "gothisch-bogen";
+src: url(fonts/formulier-48_gotische_bogen_web.woff2);
+}
+
+@font-face {
+	font-family: "verbindingen-met-schereven";
+src: url(fonts/formulier-49_verbindingen_open_met_schreven_web.woff2);
+}
+
+@font-face {
+	font-family: "bald-regular";
+src: url(fonts/formulier-70_regular__web.woff2);
+}
+
+@font-face {
+	font-family: "bald-regular-gespatieerd";
+src: url(fonts/formulier-70_regular_gespatieerd_web.woff2);
+}
+
+@font-face {
+	font-family: "bald-rond";
+src: url(fonts/formulier-53_black_rond_web.woff2);
+}
+
+@font-face {
+	font-family: "bald-scherp";
+src: url(fonts/formulier-54_black_scherp_web.woff2);
+}
+
+@font-face {
+	font-family: "bald-black";
+src: url(fonts/formulier-64_black_web.woff2);
+}
+
+@font-face {
+	font-family: "bald-black-schreven";
+src: url(fonts/formulier-82_black_met_schreven_web.woff2);
+}
+
+@font-face {
+	font-family: "metal";
+src: url(fonts/formulier-66_web.woff2);
+}
+
+@font-face {
+	font-family: "a-game-of-chess";
+src: url(fonts/formulier-73_a_game_of_chess_is_like_a_sword_fight_you_must_think_first_before_you_move.ufo_web.woff2);
+}
+
+@font-face {
+	font-family: "a-fight";
+src: url(fonts/formulier-67_a_Fight_web.woff2);
+}
+
+@font-face {
+	font-family: "Zon";
+src: url(fonts/formulier-79_zon_web.woff2);
+}
+
+@font-face {
+	font-family: "arabisch-western";
+src: url(fonts/formulier-60_arabisch_western_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelen_zijn_letters";
+src: url(fonts/formulier-69_onderdelen_zijn_letters_web.woff2);
+}
+@font-face {
+	font-family: "onderdelen_zijn_a-game-of-chess";
+src: url(fonts/formulier-75_onderdelen_zijn_letters_A_game_of_chess_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelen_zijn_letters-bald";
+src: url(fonts/formulier-74_onderdelen_zijn_letters_black_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelen_zijn_letters-metal";
+src: url(fonts/formulier-77_onderdelen_zijn_letters_metal_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelen_zijn_letters-storing";
+src: url(fonts/formulier-78_onderdelen_zijn_letters_storing_web.woff2);
+}
+
+@font-face {
+	font-family: "onderdelen_zijn_letters-zon";
+src: url(fonts/formulier-80_onderdelen_zijn_letters_zon_web.woff2);
+}
+
+@font-face {
+	font-family: "script";
+src: url(fonts/script-Rond_web.woff2);
+}
+
+@font-face {
+	font-family:"cut-outs";
+src: url(fonts/formulier-81_cut_outs_web.woff2);
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.kapitalen{
+	text-transform: uppercase;
+}
+
+.onderkast{
+	text-transform: lowercase;
+}
+
+.outlinezwart {
+	color:white;
+	text-shadow:
+		-1px -1px 0 #000000,
+		 1px -1px 0 #000000,
+		-1px  1px 0 #000000,
+		 1px  1px 0 #000000;
+}
+
+.onderlinwavypaars{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	-webkit-text-decoration-style: wavy;
+	text-decoration-color:#8904B1;
+}
+
+.onderlinwavyLblauw{
+	text-decoration-line: underline;
+	text-decoration-style: wavy;
+	-webkit-text-decoration-style: wavy;
+	text-decoration-color:#009ee3;
+}
+
+.markerroze{
+	background-color: #e5007d;
+}
+
+.markergeel{
+	background-color: yellow;
+}
+
+.markerblauw{
+	background-color: blue;
+}
+
+.markergroen{
+	background-color: green;
+}
+
+.font-item {
+	max-height: 98vh;
+	he ight: 100vh;
+	max-width:80vw;
+
+}
+
+.form{
+	font-family:"formulier_basis";
+	font-size:1vw;
+	padding:0;
+	margin-left:30vw;
+	margin-bottom:1vh;
+	padding:1vw;
+	align:center;
+	position:absolute;
+}
+
+.formselector{
+	font-family:"formulier_basis";
+	font-size:1.5vw;
+	padding:0;
+	float:left;
+	position:absolute;
+}
+
+select {
+	font-family: "formulier_basis";
+	align:center;
+	font-size:1vw;
+	appearance: none;
+	background: #40E0D0;
+	background: #40E0D0;
+	background: -webkit-linear-gradient(to bottom, #FF0080, #FF8C00, #40E0D0);
+	background: linear-gradient(to bottom, #FF0080, #FF8C00, #40E0D0);
+}
+
+.AGM{
+	background-color: #ffed00;
+	text-align:center;
+	line-height:1.2;
+	
+}
+
+.AGMabc{
+	font-size: 7vw;
+}
+
+	.font-AGMbasis{
+		font-family: "AGMbasis";
+		font-size: 13vw;
+		color:#1c9bd8;
+		background-color: #ffed00;
+		padding:5Vh 0Vw 6Vh 0Vw ;
+}
+
+	.font-AGMeenop1 {
+		font-family: "AGM1op1";
+		font-size: 13vw;
+		color:#e5007d;
+		background-color:#009ee3 ;
+		padding:5Vh 0Vw 6Vh 0Vw ;
+}
+
+	.font-AGMkapot {
+		font-family: "AGMkapot";
+		font-size: 13vw;
+		color:#ffed00;
+		background-color: #e5007d;
+		padding:5Vh 0Vw 6Vh 0Vw ;
+}
+
+	.font-AGMkrabbels {
+		font-family: "AGMkrabbels";
+		font-size: 13vw;
+		color:red;
+		background-color: black;
+		padding:5Vh 0Vw 6Vh 0Vw ;
+}
+
+.font-AGMalles{
+	height:30vh;
+	
+}
+	.font-AGMallesbasis{
+		font-family: "AGMbasis";
+		font-size: 15vw;
+		text-align:center;
+		color:#1c9bd8;
+		position: absolute;
+		background-color:black;
+		padding:0vh 5.5vw 0vh 5.5vw;
+	}
+
+	.font-AGMalleseenop1{
+		font-family: "AGM1op1";
+		font-size: 15vw;
+		text-align:center;
+		color:#e5007d;
+		position: absolute;
+		padding:0vh 5.5vw 0vh 5.5vw;
+	
+	}
+
+	.font-AGMalleskappot{
+		font-family: "AGMkapot2";
+		font-size: 15vw;
+		text-align:center;
+		color:#ffed00;
+		position: absolute;
+		background-color:none;
+		padding:0vh 5.5vw 0vh 5.5vw;
+	
+	}
+
+	.font-AGMalleskrabbels{
+		font-family: "AGMkrabbels";
+		font-size: 15vw;
+		text-align:center;
+		color:red;
+		position: absolute;
+		background-color:none;
+		padding:0vh 5vw 0vh 5.5vw	
+	}
+
+
+.font-8{
+	font-family: "8";
+	font-size:7vw;
+	text-align:center;
+	background-color:;
+	text-transform:uppercase;
+	padding:8vw 2vw 5vw 2vw;
+}
+
+.font-ruit{
+	font-family:"ruit";
+	font-size:7vw;
+	line-height:1.5;
+	color:#0066FF;
+	text-align:center;
+	text-shadow:
+		-1px -1px 0 #FAFA37,
+		 1px -1px 0 #FAFA37,
+		 -1px  1px 0 #FAFA37,
+		 1px  1px 0 #FAFA37;
+	background-image: url("img/thunderdiamond.jpg");
+	padding:3vh 1vw 3vh 1vw ;
+}
+
+.font-Fungi{
+	font-family:"fungi";
+	font-size:15vw;
+	text-align:center;
+	line-height:1;
+	color:#429f3b;
+	background: #283c86;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #283c86 5%, #8904B1 10%, #8904B1 90%, #283c86 95%);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #283c86 5%, #8904B1 10%,#8904B1 90%, #283c86 95%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
+	padding:7vh 0vh 7vh 0vh;
+	height:100vh;
+}
+
+
+.fungi-abc{
+	font-family:"fungi";
+	font-size:5vw;
+	text-align:center;
+	color:#429f3b;
+	width:100vh;
+	padding-top:2vw;
+	transform: rotate(-90deg);
+	transform-origin:3% 30% ;
+	float: left;
+}
+
+.fungi-abc2{
+	font-family:"fungi";
+	font-size:5vw;
+	text-align:center;
+	width:100vh;
+	color:#429f3b;
+	transform: rotate(90deg);
+	transform-origin: 100% 100% ;
+	position:absolute;
+	right:80px;
+}
+
+.basis{
+	font-size:15vw;
+	text-align:center;
+	line-height:1;
+	padding:5vw 1vw 5vw 1vw;
+	color:black;
+	background: #1a2a6c;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to bottom, #fdbb2d, #b21f1f, #1a2a6c);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to bottom, #fdbb2d, #b21f1f, #1a2a6c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	
+}
+
+
+
+.formulier-basis{
+	font-family:"formulier_basis";
+	padding:5vw 1vw 2vw 1vw;
+	
+	
+}
+
+.formulier-basis-met-schreven{
+	font-family:"basis-met-schreven";
+	padding:3vw 1vw 3vw 1vw;
+
+}
+
+.font-vervormdesmiley{
+	font-family:"vervormdesmiley";
+	font-size:13vw!important;
+	line-height:1.2;
+	text-align: center;
+	color:#ffed00;
+	background: linear-gradient(to right,#009ee3, #e5007d, #6a2382,#84b527 );
+	padding:5vh 2vw 10vh 2vw;
+	text-shadow: 0 1px 0 #ccc,
+	   0 2px 0 #c9c9c9,
+	   0 3px 0 #bbb,
+	   0 4px 0 #b9b9b9,
+	   0 5px 0 #aaa,
+	   0 6px 1px rgba(0,0,0,.1),
+	   0 0 5px rgba(0,0,0,.1),
+	   0 1px 3px rgba(0,0,0,.3),
+	   0 3px 5px rgba(0,0,0,.2),
+	   0 5px 10px rgba(0,0,0,.25),
+	   0 10px 10px rgba(0,0,0,.2),
+	   0 20px 20px rgba(0,0,0,.15);
+}
+
+.font-onderdelensmiley{
+	width: 60vw;
+	font-family:"onderdelensmiley";
+	font-size:10vw!important;
+	text-transform: uppercase;
+	color:red;
+	text-shadow:
+		-1px -1px 0 blue ,
+		 1px -1px 0 blue ,
+		-1px  1px 0 blue ,
+		 1px  1px 0 blue ,
+		-5px -5px 0 green ,
+		 5px -5px 0 green ,
+		-5px  5px 0 green ,
+		 5px  5px 0 green ;
+	background: repeating-linear-gradient(190deg,red,blue 7%,green 10%);
+	padding:5vw;
+	transform-origin: 110% 50% ;
+	-webkit-transform: rotate(10deg);
+	--webkit-box-shadow: -25px -25px 0px 8px rgba(0,0,0,0.75);
+	-moz-box-shadow: -15px -15px 0px 8px rgba(0,0,0,0.75);
+	box-shadow: -15px -15px 0px 8px rgba(0,0,0,0.75);
+}
+
+	.font-formulier20effect1{
+		font-family:"formulier20effect1";
+		font-family:"formulier20effect1";
+		font-size:2vw !important;
+		text-align: justify;
+		text-align-last: justify;
+		text-indent: 5vw;
+		column-count: 3;
+		column-gap: 1vw;
+		color:black;
+		padding:5vw 5vw 5vw 5vw ;
+		background-color:white;
+}
+
+.font-omgekeerdcontrast{
+	font-family:"omgekeerdcontrast";
+	color:white;
+	line-height:1;
+	text-align: center;
+	background-color:black;
+	padding:11vh 0vw 11vh 0vw;
+	text-decoration-color:red;
+}
+
+.font-omgekeerdcontrast p{
+	font-size:6vw;
+	text-decoration: underline ;
+	text-transform: capitalize;
+}
+
+.font-omgekeerdcontrastabc{
+	font-size:5vw;
+	line-height:3;
+	
+}
+
+.font-tussen2contrasten{
+	font-family:"tussen2contrasten";
+	font-size:30vh;
+	text-transform:capitalize;
+	color:blue;
+	background-color:red;
+	background-image: url("img/bird-animated-gif-26.gif");
+	padding-top:1vh;
+	padding-bottom:11vh;
+}
+
+
+.font-houdingen{
+	font-family:"houdingen";
+	color:#004c9c;
+	font-size:6vw;
+	line-height:1.3;
+	
+	background-color:#5f9f5e;
+	padding:4vh 3vw 4vh 3vw;
+	border: 20px double #004c9c;
+	border-shadow:		0 1px 0 #ccc,
+		0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0,.1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0,.2),
+		0 20px 20px rgba(0,0,0,.15);
+	text-shadow: 
+		0 1px 0 #ccc,
+		0 2px 0 #c9c9c9,
+		0 3px 0 #bbb,
+		0 4px 0 #b9b9b9,
+		0 5px 0 #aaa,
+		0 6px 1px rgba(0,0,0,.1),
+		0 0 5px rgba(0,0,0,.1),
+		0 1px 3px rgba(0,0,0,.3),
+		0 3px 5px rgba(0,0,0,.2),
+		0 5px 10px rgba(0,0,0,.25),
+		0 10px 10px rgba(0,0,0,.2),
+		0 20px 20px rgba(0,0,0,.15);
+}
+
+.font-HELVETICA_CIJFERS-2{
+	font-family:"HELVETICA_CIJFERS-2";
+	font-size:10vw;
+	padding:3vw;
+	background-image: url("img/raster.jpg");
+}
+.font-alleonderdelenissmiley{
+	font-family:"alleonderdelenissmiley";
+	text-align:left;
+	color:yellow;
+	background-color:#002fa7;
+	padding-right:4vw;
+	padding-left:4vw;
+	padding-top:4vw;
+	padding-bottom:4vw;
+}
+
+.font-alleonderdelenissmiley h{
+	font-size:7vw;
+	text-align: left;
+	line-height:7vw;
+}
+
+.font-alleonderdelenissmiley p{
+	font-size:2vw;
+	word-break: break-all;
+	text-align:justify;
+	text-indent: 3vw;
+}
+
+.font-blaadjes{
+	font-family:"eldesdoorn";
+	font-size:10vw;
+	text-align: center;
+	line-height:8vw;
+	color:black;
+	background-image: url("img/grass-texture.jpg");
+	padding:5vh 1vw 5vh 1vw;
+background-image: url("img/grass-texture.jpg");
+}
+
+.font-blaadjes form{
+	font-family: "formulier_basis";
+	font-size:1vw;
+	text-align: left;
+	line-height:1;
+	color:black;
+	
+}
+
+	.font-beuk{
+		font-family:"beuk";
+}
+
+	.font-blaadjes-combinatie{
+		font-family:"blaadjes-combinatie";
+		background-image: url("img/grass-texture.jpg");
+}
+
+	.font-eik{
+		font-family:"eik";
+		background-image: url("img/grass-texture.jpg");
+}
+
+	.font-esdoorn{
+		font-family:"eldesdoorn";
+		background-image: url("img/grass-texture.jpg");
+}
+
+	.font-rode-eik{
+		font-family:"rode_eik";
+		background-image: url("img/grass-texture.jpg");
+		
+}
+
+.font-formulier-33_bewegings_onscherpte{
+	font-family:"formulier-33_bewegings_onscherpte";
+	font-size:10vw;
+	color:yellow;
+	background-color:black;
+	text-align: center;
+	padding:4vw 2vw 8vw 2vw;
+	
+}
+
+.storing{
+	font-size:12vw;
+	line-height:1;
+	text-align: center;
+	color:white;
+}
+
+	.formulier-39_storing_light{
+		font-family:"formulier-39_storing_light";
+		color:yellow;
+		padding:5vw 5vw 10vw 5vw;
+		background: #02111D;
+		background: -webkit-linear-gradient(to top, #000000 5%, #02111D 35%, #037BB5 50%, #02111D 65%, #000000 90%);
+		background: linear-gradient(to top, #000000 5%, #02111D 35%, #037BB5 50%, #02111D 65%, #000000 90%);
+		padding:6vh 1vw 5vh 1vw;
+	}
+
+	.formulier-40_storing_regular{
+		font-family:"formulier-40_storing_regular";
+		padding:5vw 5vw 10vw 5vw;
+		background: #070000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom, #070000, #ed7d7f, #070000);
+		background: linear-gradient(to bottom, #070000, #ed7d7f, #070000);
+		padding:6vh 1vw 5vh 1vw;
+	}
+
+	.formulier-40_storing_glas{
+		font-family:"formulier-40_storing_glas";
+		padding:5vw 5vw 10vw 5vw;
+		background: #000000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom, #000000 5%, #0f9b0f 50%, #000000 95%);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to bottom, #000000 5%, #0f9b0f 50%, #000000 95%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		padding:6vh 1vw 5vh 1vw;
+	}
+
+	.formulier-41_storing_regular2{
+		font-family:"formulier-41_storing_regular2";
+		padding:5vw 5vw 10vw 5vw;
+		background: #070000;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom, #070000, #ed7d7f, #070000);
+		background: linear-gradient(to bottom, #070000, #ed7d7f, #070000);
+		padding:6vh 1vw 5vh 1vw;
+	
+	}
+
+	.formulier-42_storing_bold{
+		font-family:"formulier-42_storing_bold";
+		font-size:12vw;
+		padding:5vw 5vw 10vw 5vw;
+		background: #03001e;
+		background: -webkit-linear-gradient(to bottom, #fdeff9, #7303c0, #03001e, #7303c0, #fdeff9);
+		background: linear-gradient(to bottom, #fdeff9, #7303c0, #03001e, #7303c0, #fdeff9);
+		padding:6vh 1vw 5vh 1vw;
+	
+	}
+
+	.font-formulier-34_bewegings_onscherpte_2{
+		font-family:"formulier-34_bewegings_onscherpte_2";
+		text-align: center;
+		color:black;
+		padding:5vw 5vw 10vw 5vw;
+		background: #fffc00;  /* fallback for old browsers */
+		background: -webkit-linear-gradient(to bottom,#636363, #fffc00, #ffffff, #fffc00, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+		background: linear-gradient(to bottom, #636363, #fffc00, #ffffff, #fffc00, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+		padding:6vh 1vw 5vh 1vw;
+		
+	}
+
+.krabbels{
+	text-align: center;
+	color:white;
+	background-color:black;
+}
+
+	.font-formulier-24_krabbels_negatief{
+		font-family:"formulier-24_krabbels_negatief";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+	}
+
+	.font-formulier-25_krabbel_schrift{
+		font-family:"formulier-25_krabbel_schrift";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+		
+	}
+	
+	.formulier-26_krabbels_basis_negatief{
+		font-family:"formulier-26_krabbels_basis_negatief";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+
+	}
+
+	.font-formulier-27_krabbels_basis{
+		font-family:"formulier-27_krabbels_basis";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+		
+	}
+
+	.font-formulier-28_krabbels{
+		font-family:"formulier-28_krabbels";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+		
+	}
+
+	.font-formulier-31_krabbels_schreven{
+		font-family:"formulier-31_krabbels_schreven";
+		font-size:12vw;
+		padding:0vh 1vw 2vh 1vw;
+		
+}	
+
+
+.tekeningen{
+	font-size:15vw;
+	line-height:1.2;
+	text-indent:3vw;
+	color:white;
+	
+	
+}
+
+	.tekening1{
+		font-family:"tekening1";
+		padding:0vw 0vw 0vw 5vw;
+		color:#ffed00;
+		background-color:#0012ff;
+	}
+
+	.tekening2{
+		font-family:"tekening2";
+		color:#000000;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#ffffff;
+		
+	}
+	
+	.tekening3{
+		font-family:"tekening3";
+		color:#e30513;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#00DAFC;
+		
+	}
+	
+	.tekening4{
+		font-family:"tekening4";
+		color:#84b527;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#7B4AD8;
+		
+	}
+	
+	.tekening5{
+		font-family:"tekening5";
+		color:#009ee3;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#f08300;
+		
+	}
+	
+	.tekening6{
+		font-family:"tekening6";
+		color:#006339;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#e5007d;
+		
+	}
+	
+	.tekening7{
+		font-family:"tekening7";
+		color:#f08300;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#0f7cff;
+		
+	}
+	
+	.tekening8{
+		font-family:"tekening8";
+		color:#273582;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#d8ca7d;
+		
+	}
+	
+	.tekening9{
+		font-family:"tekening9";
+		color:#6a2382;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:;
+		
+	}
+	
+	.tekening10{
+		font-family:"tekening10";
+		color:#e5007d;
+		padding:0vw 0vw 0vw 5vw;
+		background-color:#84b527;
+		
+	}
+
+.font-formulier-15_guns_1{
+	font-family:"formulier-15_guns_1";
+	font-size:13vw;
+	padding:5vw 2vw 5vw 2vw;
+	background-color:red;
+}
+
+.verbindingen{
+	font-family: "verbindingen";
+	font-size:4vw;
+	padding:2vw 6vw 2vw 6vw;
+}
+
+.font-verbindingen{
+	font-family: "verbindingen";
+	
+}
+
+.font-verbindingen-schreven{
+	font-family: "verbindingen-met-schereven";
+}
+
+.gothisch-bogen{
+	font-family: "gothisch-bogen";
+	font-size:15vw;
+	line-height:1.5;
+	color:red;
+	text-align:center;
+	background-color:;
+	padding:; 
+	background-image: url("img/tracery.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}
+
+.gothisch-bogen p{
+	font-size:30vw;
+	line-height:1.2;
+	
+}
+
+
+
+.bald{
+	font-size:30vw;
+	text-align:center;
+	line-height:1;
+	padding:3vw 3px 0vw 3px;
+	color:black;
+	background-color:#1a2a6c;
+	text-shadow:
+		-1px -1px 0 white,
+		 1px -1px 0 white,
+		-1px  1px 0 white,
+		 1px  1px 0 white;
+}
+
+.bald p{
+	font-size:10vw;
+	text-align:center;
+	color:black;
+	background-color:#1a2a6c;
+	text-shadow:
+		-1px -1px 0 white,
+		 1px -1px 0 white,
+		-1px  1px 0 white,
+		 1px  1px 0 white;
+		 padding:0vh 2vw 0vh 2vw;
+}
+
+.bald-regular{
+	font-family: "bald-regular";
+}
+	.bald-regular-gespatieerd{
+		font-family: "bald-regular-gespatieerd";
+		
+	}
+.bald-rond{
+	font-family: "bald-rond";
+	
+}
+.bald-scherp{
+	font-family: "bald-scherp";
+	
+}
+.bald-black{
+	font-family: "bald-black";
+	
+}
+.bald-black-schreven{
+	font-family: "bald-black-schreven";
+	
+}
+
+.metal{
+	font-family: "metal";
+	font-size:15vw;
+	color:white;
+	background:black;
+	padding: 2vw 2vw 2vw 2vw ;
+	line-height:1.2 ;
+}
+
+.a-game-of-chess{
+	font-family: "a-game-of-chess";
+	font-size:8vw;
+	padding: 5vw 5vw 5vw 5vw;
+	line-height:1.2;
+	text-position: center;
+
+}
+
+.onderdelen{
+	font-size:15vw;
+	text-align:center;
+	background-color:#8000ff;
+	padding: 2vw 2vw 2vw 2vw ;
+}
+
+.onderdelen_zijn_letters{
+	font-family: "onderdelen_zijn_letters";
+	color:black;
+	background:yellow;
+	border:black;
+	
+
+}
+
+	.onderdelen_zijn_letters-metal{
+		font-family: "onderdelen_zijn_letters-metal";
+		color:white;
+		background:black;
+	}
+	
+	.onderdelen_zijn_letters-bald{
+		font-family: "onderdelen_zijn_letters-bald";
+		color:black;
+		background-color:#1a2a6c;
+		text-shadow:
+			-1px -1px 0 white,
+			 1px -1px 0 white,
+			-1px  1px 0 white,
+			 1px  1px 0 white;
+	}
+	
+	.onderdelen_zijn_letters-storing{
+		font-family:"onderdelen_zijn_letters-storing";
+		color:white;
+		background: #03001e;
+		background: -webkit-linear-gradient(to bottom, #fdeff9, #7303c0, #03001e, #7303c0, #fdeff9);
+		background: linear-gradient(to bottom, #fdeff9, #7303c0, #03001e, #7303c0, #fdeff9);
+	}
+	
+	.onderdelen_zijn_letters-zon{
+		font-family:"onderdelen_zijn_letters-zon";
+		color:yellow;
+		background-image: linear-gradient( to top, #49C628 30%, #00EAFF 80%);
+	}
+	
+	.onderdelen_zijn_letters-a-game-of-chess{
+		font-family:"onderdelen_zijn_a-game-of-chess";
+		color:black;
+		background: white;
+	
+	}
+	
+.zon{
+	font-family: "zon";
+	font-size:10vw;
+	text-align:center;
+	color:yellow;
+	background-image: linear-gradient( to top, #49C628 30%, #00EAFF 80%);
+	line-height:1.2 ;
+	padding: 3vw 1vw 3vw 1vw;
+ 
+}
+
+.zon p{
+	font-size:3vw;
+	
+}
+
+.a-fight{
+	font-family: "a-fight";
+	font-size:15vw;
+	line-height:1;
+	padding:2vh 1vw 2vh 1vw ;
+}
+
+.arabisch-western{
+	font-family: "arabisch-western";
+	font-size:15vw;
+	color:black;
+	text-align:center;
+	letter-spacing: 10px;
+	line-height:1.1 ;
+	background-color:red;
+	text-shadow: 
+		0 1px  0px blue,
+		0 2px  0px blue,
+		0 3px  0px blue,
+		0 4px  0px blue,
+		0 5px  0px blue,
+		0 6px  1px blue,
+		0 7px  1px blue,
+		0 8px  1px blue,
+		0 9px  1px blue,
+		0 10px 1px blue,
+		0 11px 1px blue,
+		0 12px 1px blue,
+		0 13px 1px blue,
+		0 14px 1px blue,
+		0 15px 1px blue,
+		0 16px 1px blue;
+		
+padding: 1vh 1vw 1vh 1vw;	
+}
+
+.arabisch-western p{
+	line-height:1.5 ;
+	
+}
+
+.script{
+	font-family:"script";
+	font-size:10vw;
+	padding: 10vh 5vw 0vh 5vw;
+	background-color:red;
+
+}
+
+
+.font-cut-outs{
+	font-family:"cut-outs";
+	font-size:20vh;
+	line-height:1 ;
+	color:green;
+	background-color:#DAF7A6;
+	text-shadow:
+		-1px -1px 0 red,
+		 1px -1px 0 red,
+		-1px  1px 0 red,
+		 1px  1px 0 red;
+	padding:2vw;
+}
+
+
+.uploadzone{
+	font-family:"formulier_basis";
+	font-size:3vh;
+	text-align:center;
+	color:black;
+	text-shadow:
+		-1px -1px 0 yellow,
+		 1px -1px 0 yellow,
+		-1px  1px 0 yellow,
+		 1px  1px 0 yellow;
+	background: -moz-radial-gradient(center, ellipse cover, #bdc3c7 0%, #0f9b0f 8%, #40E0D0 20%, #FF8C00 41%, #ff0080 59%, #1a2a6c 81%, #2c3e50 94%, #2c3e50 100%); /* ff3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #bdc3c7), color-stop(8%, #0f9b0f), color-stop(20%, #40E0D0), color-stop(41%, #FF8C00), color-stop(59%, #ff0080), color-stop(81%, #1a2a6c), color-stop(94%, #2c3e50), color-stop(100%, #2c3e50)); /* safari4+,chrome */
+	background: -webkit-radial-gradient(center, ellipse cover, #bdc3c7 0%, #0f9b0f 8%, #40E0D0 20%, #FF8C00 41%, #ff0080 59%, #1a2a6c 81%, #2c3e50 94%, #2c3e50 100%); /* safari5.1+,chrome10+ */
+	background: -o-radial-gradient(center, ellipse cover, #bdc3c7 0%, #0f9b0f 8%, #40E0D0 20%, #FF8C00 41%, #ff0080 59%, #1a2a6c 81%, #2c3e50 94%, #2c3e50 100%); /* opera 11.10+ */
+	background: -ms-radial-gradient(center, ellipse cover, #bdc3c7 0%, #0f9b0f 8%, #40E0D0 20%, #FF8C00 41%, #ff0080 59%, #1a2a6c 81%, #2c3e50 94%, #2c3e50 100%); /* ie10+ */
+	background: radial-gradient(ellipse at center, #bdc3c7 0%, #0f9b0f 8%, #40E0D0 20%, #FF8C00 41%, #ff0080 59%, #1a2a6c 81%, #2c3e50 94%, #2c3e50 100%); /* w3c */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bdc3c7', endColorstr='#2c3e50',GradientType=1 ); /* ie6-9 */
+	height:98vh;
+	padding:2vh 0vw 0vh 0vw ;
+	position:relative;
+}
+.uploadzone p{
+	font-size:15vh;
+	
+}
+
+.uploadzone form{
+background-color:red;	
+}
+
+
+
+
